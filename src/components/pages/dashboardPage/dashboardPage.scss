@@ -1,0 +1,14 @@
+@import '../../../slyle/variables.scss';
+
+.page{
+    max-width: 1184px;
+    margin: 0 auto;
+    &__serch_blok{
+        padding: 24px 36px; 
+    }
+    &__bloks{
+        padding: 8px 36px;
+        display: flex;
+        gap: 30px;
+    }
+}
